@@ -16,6 +16,13 @@
 		85EE3C78209EDCFC001CDF94 /* JKTangyuanMediaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85EE3C71209EDCFC001CDF94 /* JKTangyuanMediaKit.framework */; };
 		85EE3C79209EDCFC001CDF94 /* JKTangyuanMediaKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85EE3C71209EDCFC001CDF94 /* JKTangyuanMediaKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		85EE3C81209EDDFE001CDF94 /* JKRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EE3C80209EDDFE001CDF94 /* JKRootViewController.m */; };
+		85EE3C86209EDFEF001CDF94 /* JKMp3ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 85EE3C85209EDFEF001CDF94 /* JKMp3ViewController.mm */; };
+		85EE3C89209EE002001CDF94 /* JKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EE3C88209EE002001CDF94 /* JKBaseViewController.m */; };
+		85EE3C8D209EF47A001CDF94 /* JKMp3Encoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 85EE3C8B209EF47A001CDF94 /* JKMp3Encoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85EE3C8E209EF47A001CDF94 /* JKMp3Encoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85EE3C8C209EF47A001CDF94 /* JKMp3Encoder.cpp */; };
+		85EE3C96209F0676001CDF94 /* lame.h in Headers */ = {isa = PBXBuildFile; fileRef = 85EE3C93209F0675001CDF94 /* lame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85EE3C97209F0676001CDF94 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85EE3C95209F0675001CDF94 /* libmp3lame.a */; };
+		85EE3C99209F0A87001CDF94 /* 16k.pcm in Resources */ = {isa = PBXBuildFile; fileRef = 85EE3C98209F0A87001CDF94 /* 16k.pcm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +64,15 @@
 		85EE3C74209EDCFC001CDF94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85EE3C7F209EDDFE001CDF94 /* JKRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKRootViewController.h; sourceTree = "<group>"; };
 		85EE3C80209EDDFE001CDF94 /* JKRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKRootViewController.m; sourceTree = "<group>"; };
+		85EE3C84209EDFEF001CDF94 /* JKMp3ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKMp3ViewController.h; sourceTree = "<group>"; };
+		85EE3C85209EDFEF001CDF94 /* JKMp3ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = JKMp3ViewController.mm; sourceTree = "<group>"; };
+		85EE3C87209EE002001CDF94 /* JKBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKBaseViewController.h; sourceTree = "<group>"; };
+		85EE3C88209EE002001CDF94 /* JKBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKBaseViewController.m; sourceTree = "<group>"; };
+		85EE3C8B209EF47A001CDF94 /* JKMp3Encoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKMp3Encoder.h; sourceTree = "<group>"; };
+		85EE3C8C209EF47A001CDF94 /* JKMp3Encoder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = JKMp3Encoder.cpp; sourceTree = "<group>"; };
+		85EE3C93209F0675001CDF94 /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		85EE3C95209F0675001CDF94 /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+		85EE3C98209F0A87001CDF94 /* 16k.pcm */ = {isa = PBXFileReference; lastKnownFileType = file; path = 16k.pcm; sourceTree = "<group>"; };
 		BC4CE8F3B2D2AE2A6E114074 /* Pods-JKTangyuanMediaKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKTangyuanMediaKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JKTangyuanMediaKitDemo/Pods-JKTangyuanMediaKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85EE3C97209F0676001CDF94 /* libmp3lame.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +134,8 @@
 		85EE3C72209EDCFC001CDF94 /* JKTangyuanMediaKit */ = {
 			isa = PBXGroup;
 			children = (
+				85EE3C8F209F0675001CDF94 /* Vendor */,
+				85EE3C8A209EF415001CDF94 /* mp3 */,
 				85EE3C73209EDCFC001CDF94 /* JKTangyuanMediaKit.h */,
 				85EE3C74209EDCFC001CDF94 /* Info.plist */,
 			);
@@ -126,10 +145,81 @@
 		85EE3C7E209EDDE5001CDF94 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				85EE3C82209EDFAE001CDF94 /* Demos */,
 				85EE3C7F209EDDFE001CDF94 /* JKRootViewController.h */,
 				85EE3C80209EDDFE001CDF94 /* JKRootViewController.m */,
+				85EE3C87209EE002001CDF94 /* JKBaseViewController.h */,
+				85EE3C88209EE002001CDF94 /* JKBaseViewController.m */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		85EE3C82209EDFAE001CDF94 /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				85EE3C83209EDFAE001CDF94 /* MP3 */,
+			);
+			path = Demos;
+			sourceTree = "<group>";
+		};
+		85EE3C83209EDFAE001CDF94 /* MP3 */ = {
+			isa = PBXGroup;
+			children = (
+				85EE3C98209F0A87001CDF94 /* 16k.pcm */,
+				85EE3C84209EDFEF001CDF94 /* JKMp3ViewController.h */,
+				85EE3C85209EDFEF001CDF94 /* JKMp3ViewController.mm */,
+			);
+			path = MP3;
+			sourceTree = "<group>";
+		};
+		85EE3C8A209EF415001CDF94 /* mp3 */ = {
+			isa = PBXGroup;
+			children = (
+				85EE3C8B209EF47A001CDF94 /* JKMp3Encoder.h */,
+				85EE3C8C209EF47A001CDF94 /* JKMp3Encoder.cpp */,
+			);
+			path = mp3;
+			sourceTree = "<group>";
+		};
+		85EE3C8F209F0675001CDF94 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				85EE3C90209F0675001CDF94 /* lame */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		85EE3C90209F0675001CDF94 /* lame */ = {
+			isa = PBXGroup;
+			children = (
+				85EE3C91209F0675001CDF94 /* include */,
+				85EE3C94209F0675001CDF94 /* lib */,
+			);
+			path = lame;
+			sourceTree = "<group>";
+		};
+		85EE3C91209F0675001CDF94 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				85EE3C92209F0675001CDF94 /* lame */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		85EE3C92209F0675001CDF94 /* lame */ = {
+			isa = PBXGroup;
+			children = (
+				85EE3C93209F0675001CDF94 /* lame.h */,
+			);
+			path = lame;
+			sourceTree = "<group>";
+		};
+		85EE3C94209F0675001CDF94 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				85EE3C95209F0675001CDF94 /* libmp3lame.a */,
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
 		B504F70ADA062798CE11EEE2 /* Pods */ = {
@@ -156,6 +246,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85EE3C96209F0676001CDF94 /* lame.h in Headers */,
+				85EE3C8D209EF47A001CDF94 /* JKMp3Encoder.h in Headers */,
 				85EE3C75209EDCFC001CDF94 /* JKTangyuanMediaKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,6 +336,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85EE3C99209F0A87001CDF94 /* 16k.pcm in Resources */,
 				85EE3C62209EDCC4001CDF94 /* LaunchScreen.storyboard in Resources */,
 				85EE3C5F209EDCC4001CDF94 /* Assets.xcassets in Resources */,
 			);
@@ -314,6 +407,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85EE3C86209EDFEF001CDF94 /* JKMp3ViewController.mm in Sources */,
+				85EE3C89209EE002001CDF94 /* JKBaseViewController.m in Sources */,
 				85EE3C81209EDDFE001CDF94 /* JKRootViewController.m in Sources */,
 				85EE3C65209EDCC5001CDF94 /* main.m in Sources */,
 				85EE3C57209EDCC4001CDF94 /* AppDelegate.m in Sources */,
@@ -324,6 +419,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85EE3C8E209EF47A001CDF94 /* JKMp3Encoder.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,12 +602,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/JKTangyuanMediaKit/Vendor/lame/include\"";
 				INFOPLIST_FILE = JKTangyuanMediaKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JKTangyuanMediaKit/Vendor/lame/lib",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jk.JKTangyuanMediaKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -533,12 +634,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/JKTangyuanMediaKit/Vendor/lame/include\"";
 				INFOPLIST_FILE = JKTangyuanMediaKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JKTangyuanMediaKit/Vendor/lame/lib",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jk.JKTangyuanMediaKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
