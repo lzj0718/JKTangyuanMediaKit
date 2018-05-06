@@ -7,29 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		85EE3BEF209DB796001CDF94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EE3BEE209DB796001CDF94 /* AppDelegate.m */; };
-		85EE3BF2209DB796001CDF94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EE3BF1209DB796001CDF94 /* ViewController.m */; };
-		85EE3BF5209DB796001CDF94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85EE3BF3209DB796001CDF94 /* Main.storyboard */; };
-		85EE3BF7209DB797001CDF94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85EE3BF6209DB797001CDF94 /* Assets.xcassets */; };
-		85EE3BFA209DB797001CDF94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85EE3BF8209DB797001CDF94 /* LaunchScreen.storyboard */; };
-		85EE3BFD209DB798001CDF94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EE3BFC209DB798001CDF94 /* main.m */; };
+		4B6F9EDB7A1A04F4DF1F792A /* libPods-JKTangyuanMediaKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41ABFB9C098B6AE85F143506 /* libPods-JKTangyuanMediaKitDemo.a */; };
+		85EE3C57209EDCC4001CDF94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EE3C56209EDCC4001CDF94 /* AppDelegate.m */; };
+		85EE3C5A209EDCC4001CDF94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EE3C59209EDCC4001CDF94 /* ViewController.m */; };
+		85EE3C5D209EDCC4001CDF94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85EE3C5B209EDCC4001CDF94 /* Main.storyboard */; };
+		85EE3C5F209EDCC4001CDF94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85EE3C5E209EDCC4001CDF94 /* Assets.xcassets */; };
+		85EE3C62209EDCC4001CDF94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85EE3C60209EDCC4001CDF94 /* LaunchScreen.storyboard */; };
+		85EE3C65209EDCC5001CDF94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EE3C64209EDCC5001CDF94 /* main.m */; };
+		85EE3C75209EDCFC001CDF94 /* JKTangyuanMediaKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 85EE3C73209EDCFC001CDF94 /* JKTangyuanMediaKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85EE3C78209EDCFC001CDF94 /* JKTangyuanMediaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85EE3C71209EDCFC001CDF94 /* JKTangyuanMediaKit.framework */; };
+		85EE3C79209EDCFC001CDF94 /* JKTangyuanMediaKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85EE3C71209EDCFC001CDF94 /* JKTangyuanMediaKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		85EE3C76209EDCFC001CDF94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85EE3C4A209EDCC4001CDF94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85EE3C70209EDCFC001CDF94;
+			remoteInfo = JKTangyuanMediaKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		85EE3C7D209EDCFC001CDF94 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				85EE3C79209EDCFC001CDF94 /* JKTangyuanMediaKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		85EE3BEA209DB796001CDF94 /* JKTangyuanMediaKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKTangyuanMediaKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		85EE3BED209DB796001CDF94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		85EE3BEE209DB796001CDF94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		85EE3BF0209DB796001CDF94 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		85EE3BF1209DB796001CDF94 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		85EE3BF4209DB796001CDF94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		85EE3BF6209DB797001CDF94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		85EE3BF9209DB797001CDF94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		85EE3BFB209DB798001CDF94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		85EE3BFC209DB798001CDF94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41ABFB9C098B6AE85F143506 /* libPods-JKTangyuanMediaKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JKTangyuanMediaKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B9557F3F82C4002DED62C1C /* Pods-JKTangyuanMediaKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKTangyuanMediaKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JKTangyuanMediaKitDemo/Pods-JKTangyuanMediaKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		85EE3C52209EDCC4001CDF94 /* JKTangyuanMediaKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKTangyuanMediaKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85EE3C55209EDCC4001CDF94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		85EE3C56209EDCC4001CDF94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		85EE3C58209EDCC4001CDF94 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		85EE3C59209EDCC4001CDF94 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		85EE3C5C209EDCC4001CDF94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85EE3C5E209EDCC4001CDF94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85EE3C61209EDCC4001CDF94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85EE3C63209EDCC5001CDF94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85EE3C64209EDCC5001CDF94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85EE3C71209EDCFC001CDF94 /* JKTangyuanMediaKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JKTangyuanMediaKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85EE3C73209EDCFC001CDF94 /* JKTangyuanMediaKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKTangyuanMediaKit.h; sourceTree = "<group>"; };
+		85EE3C74209EDCFC001CDF94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC4CE8F3B2D2AE2A6E114074 /* Pods-JKTangyuanMediaKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKTangyuanMediaKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JKTangyuanMediaKitDemo/Pods-JKTangyuanMediaKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		85EE3BE7209DB796001CDF94 /* Frameworks */ = {
+		85EE3C4F209EDCC4001CDF94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85EE3C78209EDCFC001CDF94 /* JKTangyuanMediaKit.framework in Frameworks */,
+				4B6F9EDB7A1A04F4DF1F792A /* libPods-JKTangyuanMediaKitDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85EE3C6D209EDCFC001CDF94 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,73 +82,140 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		85EE3BE1209DB796001CDF94 = {
+		85EE3C49209EDCC4001CDF94 = {
 			isa = PBXGroup;
 			children = (
-				85EE3BEC209DB796001CDF94 /* JKTangyuanMediaKitDemo */,
-				85EE3BEB209DB796001CDF94 /* Products */,
+				85EE3C54209EDCC4001CDF94 /* JKTangyuanMediaKitDemo */,
+				85EE3C72209EDCFC001CDF94 /* JKTangyuanMediaKit */,
+				85EE3C53209EDCC4001CDF94 /* Products */,
+				B504F70ADA062798CE11EEE2 /* Pods */,
+				F03D5F38AA36160FA2BC8B42 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		85EE3BEB209DB796001CDF94 /* Products */ = {
+		85EE3C53209EDCC4001CDF94 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				85EE3BEA209DB796001CDF94 /* JKTangyuanMediaKitDemo.app */,
+				85EE3C52209EDCC4001CDF94 /* JKTangyuanMediaKitDemo.app */,
+				85EE3C71209EDCFC001CDF94 /* JKTangyuanMediaKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		85EE3BEC209DB796001CDF94 /* JKTangyuanMediaKitDemo */ = {
+		85EE3C54209EDCC4001CDF94 /* JKTangyuanMediaKitDemo */ = {
 			isa = PBXGroup;
 			children = (
-				85EE3BED209DB796001CDF94 /* AppDelegate.h */,
-				85EE3BEE209DB796001CDF94 /* AppDelegate.m */,
-				85EE3BF0209DB796001CDF94 /* ViewController.h */,
-				85EE3BF1209DB796001CDF94 /* ViewController.m */,
-				85EE3BF3209DB796001CDF94 /* Main.storyboard */,
-				85EE3BF6209DB797001CDF94 /* Assets.xcassets */,
-				85EE3BF8209DB797001CDF94 /* LaunchScreen.storyboard */,
-				85EE3BFB209DB798001CDF94 /* Info.plist */,
-				85EE3BFC209DB798001CDF94 /* main.m */,
+				85EE3C55209EDCC4001CDF94 /* AppDelegate.h */,
+				85EE3C56209EDCC4001CDF94 /* AppDelegate.m */,
+				85EE3C58209EDCC4001CDF94 /* ViewController.h */,
+				85EE3C59209EDCC4001CDF94 /* ViewController.m */,
+				85EE3C5B209EDCC4001CDF94 /* Main.storyboard */,
+				85EE3C5E209EDCC4001CDF94 /* Assets.xcassets */,
+				85EE3C60209EDCC4001CDF94 /* LaunchScreen.storyboard */,
+				85EE3C63209EDCC5001CDF94 /* Info.plist */,
+				85EE3C64209EDCC5001CDF94 /* main.m */,
 			);
 			path = JKTangyuanMediaKitDemo;
 			sourceTree = "<group>";
 		};
+		85EE3C72209EDCFC001CDF94 /* JKTangyuanMediaKit */ = {
+			isa = PBXGroup;
+			children = (
+				85EE3C73209EDCFC001CDF94 /* JKTangyuanMediaKit.h */,
+				85EE3C74209EDCFC001CDF94 /* Info.plist */,
+			);
+			path = JKTangyuanMediaKit;
+			sourceTree = "<group>";
+		};
+		B504F70ADA062798CE11EEE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B9557F3F82C4002DED62C1C /* Pods-JKTangyuanMediaKitDemo.debug.xcconfig */,
+				BC4CE8F3B2D2AE2A6E114074 /* Pods-JKTangyuanMediaKitDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F03D5F38AA36160FA2BC8B42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41ABFB9C098B6AE85F143506 /* libPods-JKTangyuanMediaKitDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		85EE3C6E209EDCFC001CDF94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85EE3C75209EDCFC001CDF94 /* JKTangyuanMediaKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		85EE3BE9209DB796001CDF94 /* JKTangyuanMediaKitDemo */ = {
+		85EE3C51209EDCC4001CDF94 /* JKTangyuanMediaKitDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 85EE3C00209DB798001CDF94 /* Build configuration list for PBXNativeTarget "JKTangyuanMediaKitDemo" */;
+			buildConfigurationList = 85EE3C68209EDCC5001CDF94 /* Build configuration list for PBXNativeTarget "JKTangyuanMediaKitDemo" */;
 			buildPhases = (
-				85EE3BE6209DB796001CDF94 /* Sources */,
-				85EE3BE7209DB796001CDF94 /* Frameworks */,
-				85EE3BE8209DB796001CDF94 /* Resources */,
+				5DBF2AC97BBE21FA9B0D2028 /* [CP] Check Pods Manifest.lock */,
+				85EE3C4E209EDCC4001CDF94 /* Sources */,
+				85EE3C4F209EDCC4001CDF94 /* Frameworks */,
+				85EE3C50209EDCC4001CDF94 /* Resources */,
+				85EE3C7D209EDCFC001CDF94 /* Embed Frameworks */,
+				1D1DACF17B4AD004EA0446A5 /* [CP] Embed Pods Frameworks */,
+				67302E227A565FA6E14AF850 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85EE3C77209EDCFC001CDF94 /* PBXTargetDependency */,
+			);
+			name = JKTangyuanMediaKitDemo;
+			productName = JKTangyuanMediaKitDemo;
+			productReference = 85EE3C52209EDCC4001CDF94 /* JKTangyuanMediaKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85EE3C70209EDCFC001CDF94 /* JKTangyuanMediaKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85EE3C7A209EDCFC001CDF94 /* Build configuration list for PBXNativeTarget "JKTangyuanMediaKit" */;
+			buildPhases = (
+				85EE3C6C209EDCFC001CDF94 /* Sources */,
+				85EE3C6D209EDCFC001CDF94 /* Frameworks */,
+				85EE3C6E209EDCFC001CDF94 /* Headers */,
+				85EE3C6F209EDCFC001CDF94 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = JKTangyuanMediaKitDemo;
-			productName = JKTangyuanMediaKitDemo;
-			productReference = 85EE3BEA209DB796001CDF94 /* JKTangyuanMediaKitDemo.app */;
-			productType = "com.apple.product-type.application";
+			name = JKTangyuanMediaKit;
+			productName = JKTangyuanMediaKit;
+			productReference = 85EE3C71209EDCFC001CDF94 /* JKTangyuanMediaKit.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		85EE3BE2209DB796001CDF94 /* Project object */ = {
+		85EE3C4A209EDCC4001CDF94 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = jk;
 				TargetAttributes = {
-					85EE3BE9209DB796001CDF94 = {
+					85EE3C51209EDCC4001CDF94 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					85EE3C70209EDCFC001CDF94 = {
 						CreatedOnToolsVersion = 9.3;
 					};
 				};
 			};
-			buildConfigurationList = 85EE3BE5209DB796001CDF94 /* Build configuration list for PBXProject "JKTangyuanMediaKitDemo" */;
+			buildConfigurationList = 85EE3C4D209EDCC4001CDF94 /* Build configuration list for PBXProject "JKTangyuanMediaKitDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,55 +223,129 @@
 				en,
 				Base,
 			);
-			mainGroup = 85EE3BE1209DB796001CDF94;
-			productRefGroup = 85EE3BEB209DB796001CDF94 /* Products */;
+			mainGroup = 85EE3C49209EDCC4001CDF94;
+			productRefGroup = 85EE3C53209EDCC4001CDF94 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				85EE3BE9209DB796001CDF94 /* JKTangyuanMediaKitDemo */,
+				85EE3C51209EDCC4001CDF94 /* JKTangyuanMediaKitDemo */,
+				85EE3C70209EDCFC001CDF94 /* JKTangyuanMediaKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		85EE3BE8209DB796001CDF94 /* Resources */ = {
+		85EE3C50209EDCC4001CDF94 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85EE3BFA209DB797001CDF94 /* LaunchScreen.storyboard in Resources */,
-				85EE3BF7209DB797001CDF94 /* Assets.xcassets in Resources */,
-				85EE3BF5209DB796001CDF94 /* Main.storyboard in Resources */,
+				85EE3C62209EDCC4001CDF94 /* LaunchScreen.storyboard in Resources */,
+				85EE3C5F209EDCC4001CDF94 /* Assets.xcassets in Resources */,
+				85EE3C5D209EDCC4001CDF94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85EE3C6F209EDCFC001CDF94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D1DACF17B4AD004EA0446A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JKTangyuanMediaKitDemo/Pods-JKTangyuanMediaKitDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DBF2AC97BBE21FA9B0D2028 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JKTangyuanMediaKitDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67302E227A565FA6E14AF850 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JKTangyuanMediaKitDemo/Pods-JKTangyuanMediaKitDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		85EE3BE6209DB796001CDF94 /* Sources */ = {
+		85EE3C4E209EDCC4001CDF94 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85EE3BF2209DB796001CDF94 /* ViewController.m in Sources */,
-				85EE3BFD209DB798001CDF94 /* main.m in Sources */,
-				85EE3BEF209DB796001CDF94 /* AppDelegate.m in Sources */,
+				85EE3C5A209EDCC4001CDF94 /* ViewController.m in Sources */,
+				85EE3C65209EDCC5001CDF94 /* main.m in Sources */,
+				85EE3C57209EDCC4001CDF94 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85EE3C6C209EDCFC001CDF94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		85EE3C77209EDCFC001CDF94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85EE3C70209EDCFC001CDF94 /* JKTangyuanMediaKit */;
+			targetProxy = 85EE3C76209EDCFC001CDF94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		85EE3BF3209DB796001CDF94 /* Main.storyboard */ = {
+		85EE3C5B209EDCC4001CDF94 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				85EE3BF4209DB796001CDF94 /* Base */,
+				85EE3C5C209EDCC4001CDF94 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		85EE3BF8209DB797001CDF94 /* LaunchScreen.storyboard */ = {
+		85EE3C60209EDCC4001CDF94 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				85EE3BF9209DB797001CDF94 /* Base */,
+				85EE3C61209EDCC4001CDF94 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -169,7 +353,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		85EE3BFE209DB798001CDF94 /* Debug */ = {
+		85EE3C66209EDCC5001CDF94 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -227,7 +411,7 @@
 			};
 			name = Debug;
 		};
-		85EE3BFF209DB798001CDF94 /* Release */ = {
+		85EE3C67209EDCC5001CDF94 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -279,62 +463,113 @@
 			};
 			name = Release;
 		};
-		85EE3C01209DB798001CDF94 /* Debug */ = {
+		85EE3C69209EDCC5001CDF94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B9557F3F82C4002DED62C1C /* Pods-JKTangyuanMediaKitDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K9D66UP7RW;
 				INFOPLIST_FILE = JKTangyuanMediaKitDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jk.JKTangyuanMediaKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		85EE3C02209DB798001CDF94 /* Release */ = {
+		85EE3C6A209EDCC5001CDF94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC4CE8F3B2D2AE2A6E114074 /* Pods-JKTangyuanMediaKitDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K9D66UP7RW;
 				INFOPLIST_FILE = JKTangyuanMediaKitDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jk.JKTangyuanMediaKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
+		85EE3C7B209EDCFC001CDF94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = K9D66UP7RW;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JKTangyuanMediaKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jk.JKTangyuanMediaKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		85EE3C7C209EDCFC001CDF94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = K9D66UP7RW;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JKTangyuanMediaKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jk.JKTangyuanMediaKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		85EE3BE5209DB796001CDF94 /* Build configuration list for PBXProject "JKTangyuanMediaKitDemo" */ = {
+		85EE3C4D209EDCC4001CDF94 /* Build configuration list for PBXProject "JKTangyuanMediaKitDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				85EE3BFE209DB798001CDF94 /* Debug */,
-				85EE3BFF209DB798001CDF94 /* Release */,
+				85EE3C66209EDCC5001CDF94 /* Debug */,
+				85EE3C67209EDCC5001CDF94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		85EE3C00209DB798001CDF94 /* Build configuration list for PBXNativeTarget "JKTangyuanMediaKitDemo" */ = {
+		85EE3C68209EDCC5001CDF94 /* Build configuration list for PBXNativeTarget "JKTangyuanMediaKitDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				85EE3C01209DB798001CDF94 /* Debug */,
-				85EE3C02209DB798001CDF94 /* Release */,
+				85EE3C69209EDCC5001CDF94 /* Debug */,
+				85EE3C6A209EDCC5001CDF94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85EE3C7A209EDCFC001CDF94 /* Build configuration list for PBXNativeTarget "JKTangyuanMediaKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85EE3C7B209EDCFC001CDF94 /* Debug */,
+				85EE3C7C209EDCFC001CDF94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 85EE3BE2209DB796001CDF94 /* Project object */;
+	rootObject = 85EE3C4A209EDCC4001CDF94 /* Project object */;
 }
