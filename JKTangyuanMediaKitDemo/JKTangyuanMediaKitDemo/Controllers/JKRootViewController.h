@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  JKRootViewController.h
 //  JKTangyuanMediaKitDemo
 //
 //  Created by Jacky Liang on 2018/5/6.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface JKRootViewController : UIViewController
 
 @end
-
